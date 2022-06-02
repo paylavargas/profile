@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+body {
+  background-color: #EFEAD8;
+  color: #354259;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+h2 {
+  color: #CDC2AE
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.text-subheader {
+  color: #CDC2AE;
+  font-size: 20px;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card-white {
+  text-align: center;
+  background: white;
+  padding: 24px;
+  margin: 24px auto;
+  border: 1px solid lightgrey;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  border-radius: 4px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+/* .text-center {
+  text-align: center;
+} */
+
+.btn-green {
+  background-color: #C2DED1;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+
+.btn-green:hover {
+  background-color: #6D8B74;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 32px;
+  color: #C2DED1;
+  margin: 8px 24px;
+}
+
+.social-icon:hover {
+  color: #6D8B74;
+}
